@@ -18,7 +18,8 @@ public class StringOperationsDemo {
 		System.out.println(s1.substring(2, 5));
 		System.out.println(s1.substring(2));
 		
-		System.out.println(s2.isEmpty());
+		System.out.println("S2 is Empty or not : "+s2.isEmpty());
+		System.out.println(s2.length());
 		
 		// String Comparison
 		s1="Good Morning";
