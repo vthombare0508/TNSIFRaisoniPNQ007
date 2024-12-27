@@ -29,7 +29,9 @@ public class ArrayOperations {
 		int count =0;
 		for(int i=0; i<b.length; i++) {
 			if(b[i] %2 != 0)
+			{
 				count++;
+			}
 		}
 		return count;
 		    
